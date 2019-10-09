@@ -24,7 +24,7 @@ Ehh...did I mention the attention span thing? Also, it feels like cracking this 
 
 Revisiting Mesen's debugger we appear to have a decent number of toys to play with, including a scripting engine. Maybe...we can just script the snake to play itself? We could build a clever algorithm that hunts down each apple with laser-like precision, always leaving itself just enough room to survive! On the other hand, we could do something really, really dumb which also allows me to achieve the requisite quota of human/family interation required today.
 
-Firstly we need to figure out where the snake is and which way it's going. Fortunately Mesen's natty debugger also contains a live memory viewer. Firing that up and playing the game for a bit allows us to very quickly identify the bytes associated with X position, Y position and direction:
+Firstly we need to figure out where the snake is and which way it's going. Fortunately Mesen's natty debugger also contains a live memory viewer. Firing that up and playing the game for a bit allows us to very quickly identify the bytes associated with direction, X position and Y position:
 
 ![Mesen Memory Capture](images/MemCapture.png)
 
