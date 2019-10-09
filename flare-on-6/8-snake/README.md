@@ -38,7 +38,7 @@ The current direction is stored in the bytes at both 0x0004 and 0x0005, with 0x0
 
 Firing up Mesen's script window we're presented with a handy sample script which gives us a great starting point, in addition to the awesome documentation at https://www.mesen.ca/docs/apireference.html. In order to write our script we'll want to read the current game state and then provide appropriate inputs. Interaction with the emulator is done via callbacks, in this case one on frame completion and one for polling input.
 
-The following script segment contains the basic boilerplate for kicking off the script, registering callbacks and hitting the start button.
+The following script segment contains the basic boilerplate for kicking off the game, registering callbacks and hitting the start button.
 
 ```lua
 buttonToPress = { start = true }
