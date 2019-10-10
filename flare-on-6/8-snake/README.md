@@ -16,6 +16,8 @@ After a few rounds it appears this is indeed Snake. For those who don't know (ha
 
 Unfortunately due to this being the Age of Technology I have the attention span of a gnat on speed and as such grow bored quickly. Clearly I need to find some way to get to the end of this game and obtain the flag without actually having to play the darn thing. Mesen comes with a handy debugger/disassembler, so let's fire that up and see what we're dealing with:
 
+![Mesen Debugger](images/Debugger.png)
+
 Okay! So, there's a bunch of 6502 opcodes I'm unfamiliar with and various references to the PPU. Let's find out more about this processor:
 
 ![Pass](https://cdn.hackaday.io/images/7918791493479050978.PNG)
