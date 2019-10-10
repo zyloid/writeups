@@ -104,8 +104,10 @@ function playGame()
 end
 ```
 
-After kicking off the script we can go grab a coffee while it plays. Abridged video below, and full script available at [autosnake.lua](scripts/autosnake.lua) - note that the snake will still occasionally run headlong into the wall on the final full speed level - not clear if that's a bug in the emulator or ROM, but given we always restart on the most recent level our little serpentine friend will get there in the end.
+After kicking off the script we can go grab a coffee while it plays. Full script available at [autosnake.lua](scripts/autosnake.lua) - note that the snake will still occasionally run headlong into the wall on the final full speed level - not clear if that's a bug in the emulator or ROM, but given we always restart on the most recent level our little serpentine friend will get there in the end.
 
-[![AutoSnake](http://img.youtube.com/vi/FmFyRhCHhXw/0.jpg)](http://www.youtube.com/watch?v=FmFyRhCHhXw)
+Click the below image to see the full video:
+
+[![AutoSnake](http://img.youtube.com/vi/FmFyRhCHhXw/0.jpg)](images/AutoSnake.gif)
 
 That's it! So yes I still need to go back and learn how this ROM actually works, but on the other hand I have an awesome video and all the internet points. Any comments or feedback feel free to let me know at steve@zyloid.com.
